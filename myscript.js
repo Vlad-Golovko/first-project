@@ -113,7 +113,7 @@
             }
         } else {
             document.querySelector('#confirmres').style.display = 'none';
-            document.querySelector('#selectedseats').innerHTML = 'You need to select some seats to reserve.<br><a href="#" id="error">Close</a> this dialog box and pick at least one seat.';
+            document.querySelector('#selectedseats').innerHTML = 'You need to select some seats to reserve them.<br><a href="#" id="error">Close</a> this dialog box and pick at least one seat.';
             document.querySelector('#error').addEventListener('click', event => {
                 event.preventDefault();
                 reservationForm.style.display = 'none';
